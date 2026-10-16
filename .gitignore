@@ -1,0 +1,5 @@
+/config/*
+!/config/.gitkeep
+/target/
+*.log
+.idea/

@@ -1,0 +1,22 @@
+{
+  "incidents": [
+    {
+      "legacy_id": "DEMO-001",
+      "type": "Flood",
+      "location": "Brisbane - demonstration site",
+      "occurred_at": "2026-10-01T09:30",
+      "severity": "High",
+      "population": 25,
+      "description": "Demonstration record: rising water near a residential area."
+    },
+    {
+      "legacy_id": "DEMO-002",
+      "type": "Fire",
+      "location": "Sydney - demonstration site",
+      "occurred_at": "2026-10-02T14:15",
+      "severity": "Critical",
+      "population": 60,
+      "description": "Demonstration record: building fire requiring coordinated response."
+    }
+  ]
+}

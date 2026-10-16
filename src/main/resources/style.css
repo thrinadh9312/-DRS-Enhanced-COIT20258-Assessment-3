@@ -1,0 +1,14 @@
+.root { -fx-font-family: 'Segoe UI', Arial; -fx-font-size: 13px; -fx-background-color: #eff3f8; }
+.header { -fx-background-color: #122b42; }
+.header .label { -fx-text-fill: white; }
+.brand { -fx-font-size: 11px; -fx-font-weight: bold; }
+.header .title { -fx-font-size: 23px; -fx-font-weight: bold; }
+.section { -fx-font-size: 19px; -fx-font-weight: bold; -fx-text-fill: #153752; }
+.card { -fx-background-color: white; -fx-background-radius: 8; }
+.button { -fx-background-color: #087c86; -fx-text-fill: white; -fx-padding: 8 15; -fx-background-radius: 4; -fx-cursor: hand; }
+.button:hover { -fx-background-color: #09636b; }
+.text-field,.text-area,.combo-box { -fx-background-color: white; -fx-border-color: #c4ced9; -fx-border-radius: 3; }
+.tab-pane .tab-header-area .tab-header-background { -fx-background-color: #dce5ee; }
+.tab { -fx-padding: 9 10; }
+.table-view { -fx-border-color: #dce5ee; }
+.footer { -fx-background-color: #e2eaf2; }

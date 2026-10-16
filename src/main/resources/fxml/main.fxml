@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.drs.client.MainController">
+ <top><VBox spacing="8" styleClass="header"><padding><Insets top="20" bottom="16" left="24" right="24"/></padding>
+  <Label text="DRS / EMERGENCY OPERATIONS" styleClass="brand"/>
+  <HBox spacing="12"><Label text="Disaster Response System" styleClass="title"/><Region HBox.hgrow="ALWAYS"/><Label fx:id="identity" text="Thirthala Thrinadh · 12313659"/><Button fx:id="logout" text="Sign out" onAction="#signOut" visible="false" managed="false"/></HBox>
+ </VBox></top>
+ <center><StackPane><VBox fx:id="loginPane" spacing="15" maxWidth="430" maxHeight="330" styleClass="card"><padding><Insets top="24" bottom="24" left="24" right="24"/></padding><Label text="Sign in to operations" styleClass="section"/><Label text="Connect securely to the DRS server."/><Label text="Username"/><TextField fx:id="username" promptText="admin"/><Label text="Password"/><PasswordField fx:id="password" onAction="#signIn"/><Button text="Sign in" onAction="#signIn" defaultButton="true" maxWidth="Infinity"/></VBox><TabPane fx:id="tabs" visible="false" managed="false" tabClosingPolicy="UNAVAILABLE"/></StackPane></center>
+ <bottom><HBox spacing="12" styleClass="footer"><padding><Insets top="10" bottom="10" left="24" right="24"/></padding><ProgressIndicator fx:id="progress" prefWidth="20" prefHeight="20" visible="false"/><Label fx:id="message" text="Start the MySQL database and HTTPS server before signing in." wrapText="true"/></HBox></bottom>
+</BorderPane>

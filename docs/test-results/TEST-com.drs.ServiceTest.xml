@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.drs.ServiceTest" time="9.49" tests="28" errors="0" skipped="0" failures="0">
+  <testcase name="responderSeesOnlyAssigned" classname="com.drs.ServiceTest" time="0.367" />
+  <testcase name="sqlInjectionCannotLogin" classname="com.drs.ServiceTest" time="0.348" />
+  <testcase name="invalidSeverityRejected" classname="com.drs.ServiceTest" time="0.369" />
+  <testcase name="futureDateRejected" classname="com.drs.ServiceTest" time="0.335" />
+  <testcase name="decimalPopulationRejected" classname="com.drs.ServiceTest" time="0.325" />
+  <testcase name="importDeduplicates" classname="com.drs.ServiceTest" time="0.332" />
+  <testcase name="disabledAccountRevokesSession" classname="com.drs.ServiceTest" time="0.337" />
+  <testcase name="storedDescriptionEncrypted" classname="com.drs.ServiceTest" time="0.339" />
+  <testcase name="importBatchIsAtomic" classname="com.drs.ServiceTest" time="0.337" />
+  <testcase name="wrongPasswordRejected" classname="com.drs.ServiceTest" time="0.386" />
+  <testcase name="alertAcknowledgementIdempotent" classname="com.drs.ServiceTest" time="0.335" />
+  <testcase name="completeLifecycle" classname="com.drs.ServiceTest" time="0.343" />
+  <testcase name="validLogin" classname="com.drs.ServiceTest" time="0.362" />
+  <testcase name="releaseRestoresCapacityExactlyOnce" classname="com.drs.ServiceTest" time="0.336" />
+  <testcase name="auditTamperingDetected" classname="com.drs.ServiceTest" time="0.301" />
+  <testcase name="encryptionRoundTripAndTamperCheck" classname="com.drs.ServiceTest" time="0.32" />
+  <testcase name="duplicateUserRejected" classname="com.drs.ServiceTest" time="0.369" />
+  <testcase name="assessmentSetsPriority" classname="com.drs.ServiceTest" time="0.318" />
+  <testcase name="unassignedResponderCannotReadAlert" classname="com.drs.ServiceTest" time="0.327" />
+  <testcase name="staleVersionRejected" classname="com.drs.ServiceTest" time="0.349" />
+  <testcase name="overCapacityRollsBack" classname="com.drs.ServiceTest" time="0.333" />
+  <testcase name="prematureClosureRejected" classname="com.drs.ServiceTest" time="0.331" />
+  <testcase name="reporterCannotAssess" classname="com.drs.ServiceTest" time="0.323" />
+  <testcase name="reportHasGeneratedId" classname="com.drs.ServiceTest" time="0.317" />
+  <testcase name="authorisedReadDecrypts" classname="com.drs.ServiceTest" time="0.314" />
+  <testcase name="concurrentAllocationsDoNotOverbook" classname="com.drs.ServiceTest" time="0.311" />
+  <testcase name="assignmentRequiresAssessment" classname="com.drs.ServiceTest" time="0.381" />
+  <testcase name="missingLocationRejected" classname="com.drs.ServiceTest" time="0.316" />
+</testsuite>
