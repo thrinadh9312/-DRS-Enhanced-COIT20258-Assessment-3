@@ -2,8 +2,10 @@
 
 Team Name: T9
 
-Team Leader Name: Thirthala Thrinadh (12313659)
-Team Member 1:    Harsha Vardhan Rayi (12307204)
+Team Leader Name: Thirthala Thrinadh (12313659)  
+
+Team Member 1:    Harsha Vardhan Rayi (12307204)  
+
 Team Member 2:    Teja Annam (12315178)
 
 
